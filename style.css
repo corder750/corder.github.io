@@ -32,6 +32,14 @@ main {
   flex: 1;   /* main grows to fill leftover height */
 }
 
+/* --- IMAGE RESIZE --- */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 /* --- NAVBAR --- */
 
 .nav {
