@@ -15,10 +15,8 @@
 <body>
 
 <nav class="nav-links">
-  <!-- Link to this page’s top -->
-  <a href="index.html#top" class="nav-main-link">Try the App</a>
 
-  <!-- Link to the updates page -->
+  <a href="index.html#top" class="nav-main-link">Home</a>
   <a href="#top" class="nav-main-link">Updates</a>
 
   <div class="nav-dropdown">
@@ -29,11 +27,88 @@
       <a href="index.html#how-it-works">How It Works</a>
       <a href="index.html#feedback">Feedback</a>
       <a href="index.html#coming-soon">Coming Soon</a>
+      <a href="blog.html#top">Blog</a>
     </div>
   </div>
 </nav>
 
+<main>
+  <section class="section" id="updates">
+    <h2>Update Showcase</h2>
+    <p class="showcase-sub">
+      A timeline of SeatMaster changes, new features, and visual improvements.
+    </p>
 
+    <div class="grid">
+      <!-- Update 1 -->
+      <div class="card">
+        <h3>v1.0 – Initial Prototype</h3>
+        <p>
+          First working version built in Code.org App Lab:
+        </p>
+        <ul>
+          <li>Basic floor map buttons for tables</li>
+          <li>Open / occupied status toggles</li>
+          <li>Simple counters for open vs occupied tables</li>
+        </ul>
+      </div>
+
+      <!-- Update 2 -->
+      <div class="card">
+        <h3>v1.1 – List Mode & Filters</h3>
+        <p>
+          Added a table list view and filter options:
+        </p>
+        <ul>
+          <li>List Mode with all tables + seat counts</li>
+          <li>Filters for open, occupied, booths, indoor, patio</li>
+          <li>Better color coding for table types</li>
+        </ul>
+      </div>
+
+      <!-- Update 3 -->
+      <div class="card">
+        <h3>v1.2 – Demo Login Screen</h3>
+        <p>
+          Created a simple login gate for demos:
+        </p>
+        <ul>
+          <li>Username: <code>Admin</code></li>
+          <li>Password: <code>SeatMaster2026</code></li>
+          <li>Prevents random changing tables during class demos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optional: future updates section -->
+  <section class="section section-alt">
+    <h2>Planned Updates</h2>
+    <p class="showcase-sub">
+      Ideas and features that are on the roadmap.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Section Management</h3>
+        <p>Let hosts mark which server owns which tables (A, B, C sections).</p>
+      </div>
+      <div class="card">
+        <h3>Mobile-first Layout</h3>
+        <p>Better layout for phones and small tablets.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer small-legal">
+  SeatMaster © 2025 · Tristan Patron · 
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
+    CC BY-NC-ND 4.0
+  </a>
+</footer>
+
+  
   
   <script src="script.js"></script>
 </body>
