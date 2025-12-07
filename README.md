@@ -2,6 +2,10 @@
 
 SeatMaster is a simple, visual restaurant seat management prototype built in Code.org App Lab, with a custom landing page.
 
+## Live Website
+
+- **Git Pages:** https://corder750.github.io/SeatMaster/blog.html
+
 ## Live App
 
 - **App Lab project:** https://studio.code.org/projects/applab/_tZL1pGC5kPYon2-UMpWS-dnKNqebNVfQtXLAcs3MXk
