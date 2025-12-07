@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SeatMaster – Restaurant Seat Management</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-left">
+      <!-- Logo -->
+      <img src="https://i.ibb.co/S4fjDTSD/Untitled-design-2.png" alt="SeatMaster logo" class="nav-logo">
+      <span class="nav-title">SeatMaster</span>
+    </div>
+
+    <nav class="nav-links">
+      <a href="#top" class="nav-main-link">Try the App</a>
+
+      <div class="nav-dropdown">
+        <button class="nav-dropbtn">More ▾</button>
+        <div class="nav-dropdown-menu">
+          <a href="#features">Features</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#feedback">Feedback</a>
+          <a href="#coming-soon">Coming Soon</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-content">
+        <img src="https://i.ibb.co/S4fjDTSD/Untitled-design-2.png" alt="SeatMaster logo large" class="hero-logo">
+        <h1>SeatMaster</h1>
+        <p class="hero-subtitle">
+          A simple, visual restaurant seat management tool built in Code.org App Lab.
+          Track booths, indoor tables, and patio seating in real time.
+        </p>
+        <div class="hero-buttons" id="demo">
+          <a
+            class="btn primary"
+            href="https://studio.code.org/projects/applab/_tZL1pGC5kPYon2-UMpWS-dnKNqebNVfQtXLAcs3MXk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open Live App
+          </a>
+          <a href="#features" class="btn secondary">See Features</a>
+        </div>
+        <p class="hero-note">Runs on Code.org App Lab – no install required.</p>
+      </div>
+
+      <div class="hero-card">
+        <h2>At a glance</h2>
+        <ul>
+          <li><span class="dot open"></span>Tap tables to toggle <strong>open</strong> / <strong>occupied</strong> in real time</li>
+          <li><span class="dot booth"></span>Separate layout for <strong>booths</strong>, <strong>indoor</strong>, and <strong>patio</strong></li>
+          <li><span class="dot list"></span>List view with <strong>filters</strong> and seat counts</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section">
+      <h2>Features</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Interactive Floor Map</h3>
+          <p>Each button on the map represents a real table. Tap to switch between open (green) and occupied (red) with semi-transparent colors.</p>
+        </div>
+        <div class="card">
+          <h3>List Mode &amp; Filters</h3>
+          <p>Switch to List Mode to see every table with its type, seats, and status. Use the filter menu to show only open, occupied, booths, indoor, or patio tables.</p>
+        </div>
+        <div class="card">
+          <h3>Live Counters</h3>
+          <p>Automatic counters show how many tables are open versus occupied so staff can see capacity at a glance.</p>
+        </div>
+        <div class="card">
+          <h3>Simple Login Gate</h3>
+          <p>Basic login screen to keep random users out of the manager view during demos or class presentations.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- APP SHOWCASE -->
+    <section id="showcase" class="section">
+      <h2>App Showcase</h2>
+      <p class="showcase-sub">
+        A preview of the SeatMaster interface, including the login screen, interactive floor map,
+        and List Mode with filters.
+      </p>
+
+      <div class="showcase-grid">
+        <div class="showcase-card">
+          <img src="https://i.ibb.co/VcvMDqGv/Screenshot-2025-12-05-at-10-02-41-AM.png" alt="SeatMaster login screen">
+        </div>
+
+        <div class="showcase-card">
+          <img src="https://i.ibb.co/LdfHV7sJ/Screenshot-2025-12-05-at-10-03-22-AM.png" alt="SeatMaster table layout screen">
+        </div>
+
+        <div class="showcase-card">
+          <img src="https://i.ibb.co/HT1P0rp0/Screenshot-2025-12-05-at-10-03-46-AM.png" alt="SeatMaster list mode screen">
+        </div>
+      </div>
+    </section>
+
+    <!-- DEMO LOGIN INFO -->
+    <section class="section section-alt">
+      <h2>Demo Login</h2>
+      <p class="note">
+        Use these demo credentials to log in to the SeatMaster prototype:
+      </p>
+      <div class="grid demo-grid">
+        <div class="card">
+          <h3>Username</h3>
+          <p><code>Admin</code></p>
+        </div>
+        <div class="card">
+          <h3>Password</h3>
+          <p><code>SeatMaster2026</code></p>
+        </div>
+      </div>
+      <p class="note">
+        After login, you'll see the full floor layout, table toggles, and List Mode with filters.
+      </p>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="section section-alt">
+      <h2>How It Works</h2>
+      <ol class="steps">
+        <li><strong>Log in</strong> using the demo username and password.</li>
+        <li><strong>Tap tables</strong> on the floor plan to mark them open or occupied.</li>
+        <li><strong>Switch to List Mode</strong> to see a scrollable list of all tables with seats and status.</li>
+        <li><strong>Use the filter menu</strong> to view only open tables, only occupied tables, or by area (booths, indoor, patio).</li>
+        <li><strong>Watch the counters</strong> at the top update as you change table status.</li>
+      </ol>
+      <p class="note">
+        SeatMaster is a prototype built for learning and demo purposes using Code.org App Lab.
+        It’s great for school projects, early product concepts, and experimenting with restaurant-style seat management.
+      </p>
+    </section>
+  </main>
+
+  <!-- FEEDBACK / REVIEWS -->
+  <section id="feedback" class="section section-alt">
+    <h2>Feedback & Reviews</h2>
+    <p class="feedback-sub">
+      What users and testers are saying about SeatMaster.
+    </p>
+
+    <div class="feedback-grid">
+      <div class="feedback-card">
+        <p class="feedback-text">
+          “Super easy to use and perfect for classrooms and demos. The live table toggles are awesome.”
+        </p>
+        <p class="feedback-author">— Sample Reviewer</p>
+      </div>
+
+      <div class="feedback-card">
+        <p class="feedback-text">
+          “The List Mode filter system is really clean. Excited to see future updates!”
+        </p>
+        <p class="feedback-author">— Another User</p>
+      </div>
+
+      <div class="feedback-card">
+        <p class="feedback-text">
+          “Great little prototype. Wish restaurants actually had something this simple.”
+        </p>
+        <p class="feedback-author">— Early Tester</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMING SOON -->
+  <section id="coming-soon" class="section section-alt">
+    <h2>Coming Soon</h2>
+    <p class="coming-sub">
+      New features and upgrades planned for future versions of SeatMaster.
+    </p>
+
+    <div class="coming-list">
+      <div class="coming-item">
+        <span class="coming-dot"></span>
+        <span class="coming-text">Section Management — Coming 2026...</span>
+      </div>
+
+      <div class="coming-item">
+        <span class="coming-dot"></span>
+        <span class="coming-text">Dedicated App — Coming 2026–2027...</span>
+      </div>
+
+      <div class="coming-item">
+        <span class="coming-dot"></span>
+        <span class="coming-text">App Design Revamp — Coming 2026–2027...</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer small-legal">
+    SeatMaster © 2025 · Tristan Patron ·
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">
+      CC BY-NC-ND 4.0
+    </a>
+  </footer>
+
+  <!-- Smooth scroll script -->
+  <script src="script.js" defer></script>
+</body>
+</html>
