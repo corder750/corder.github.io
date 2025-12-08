@@ -1,15 +1,29 @@
 {
   "posts": [
     {
-      "title": "📋 Early Seat Map Sketches",
-      "body": "First draft versions of the SeatMaster layout, including rough booth, indoor, and patio sections built in Code.org.",
-      "note": "Archived: October 2025"
+      "title": "🧠 Naming the Project: SeatMaster",
+      "body": "Started as a simple idea in class to help hosts and servers see which tables are open. After a few doodles and joking names, SeatMaster stuck as the official project name.",
+      "note": "Archived: Early 2025"
     },
     {
-      "title": "🧪 List Mode Prototype",
-      "body": "Tested an early version of List Mode showing tables, seats, and status in one long list before the current design.",
-      "note": "Archived: November 2025"
+      "title": "🗺️ First Floor Plan Sketches",
+      "body": "Sketched out the first version of the floor map with booths, indoor tables, and a small patio section. These hand-drawn layouts later became the button grid in Code.org App Lab.",
+      "note": "Archived: Early 2025"
+    },
+    {
+      "title": "💻 First Code.org App Lab Build",
+      "body": "Built a basic prototype where each table was just a button that changed color. There were no counters, no list mode, and no login screen yet—just a simple visual way to mark tables as open or occupied.",
+      "note": "Archived: Mid 2025"
+    },
+    {
+      "title": "📊 Adding Seat Counts & Table Types",
+      "body": "Started tracking how many seats each table had and labeled them as booth, indoor, or patio. This made it easier to imagine how SeatMaster could work in a real restaurant with different sections.",
+      "note": "Archived: Mid 2025"
+    },
+    {
+      "title": "🏫 First Class Demo",
+      "body": "Used SeatMaster in front of classmates for the first time. The app helped show how table status could update live, and it sparked the idea to eventually turn this into a more professional-looking tool.",
+      "note": "Archived: Late 2025"
     }
   ]
 }
-
