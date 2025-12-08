@@ -534,3 +534,22 @@ img {
   text-align: right;
 }
 
+
+/* --- BLOG LINK STYLE (white + underline) --- */
+.blog-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.blog-link:visited {
+  color: #ffffff;
+}
+
+.blog-link:hover {
+  color: var(--accent);
+}
+
+/* --- Load-more button spacing --- */
+.load-more-btn {
+  margin-top: 4px;
+}
