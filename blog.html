@@ -18,25 +18,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
-  <style>
-    a.blog-link {
-      color: #ffffff;
-      text-decoration: underline;
-      transition: color 0.15s ease;
-    }
-    a.blog-link:hover {
-      color: #ffd600;
-    }
-  </style>
-
+  <!-- Your main CSS file -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="nav">
   <div class="nav-left">
-    <img src="https://i.ibb.co/S4fjDTSD/Untitled-design-2.png" class="nav-logo">
+    <img src="https://i.ibb.co/S4fjDTSD/Untitled-design-2.png" class="nav-logo" alt="SeatMaster logo">
     <span class="nav-title">SeatMaster</span>
   </div>
 
@@ -46,39 +35,63 @@
 </header>
 
 <main>
+
   <section class="section" id="blog">
     <h2>SeatMaster Blog</h2>
     <p class="showcase-sub">Updates, progress logs, and behind-the-scenes development notes.</p>
 
+    <!-- Latest posts (static) -->
     <div class="showcase-grid">
-
+      <!-- Blog Post 1 -->
       <div class="card">
         <h3>🚀 SeatMaster Website Launch</h3>
-        <p>SeatMaster now has an official landing page with features, screenshots, and a live demo link.</p>
+        <p>
+          SeatMaster now has an official landing page with features, screenshots, and a live demo link.
+          This is the first step in bringing the project beyond Code.org.
+        </p>
         <p class="note">Posted December 2025</p>
       </div>
 
+      <!-- Blog Post 2 -->
       <div class="card">
         <h3>
           <a href="UpdateShowcase.html" class="blog-link">📱 UI Redesign Preview</a>
         </h3>
-        <p>Working on a cleaner table layout, new icons, and improved list mode filtering.</p>
+        <p>
+          Working on a cleaner table layout, new icons, and improved list mode filtering.
+          The redesign will make the app easier for restaurants and students.
+        </p>
         <p class="note">Coming Soon</p>
       </div>
 
+      <!-- Blog Post 3 -->
       <div class="card">
         <h3>🛠️ Future App Plans</h3>
-        <p>Plans include: Section assignments, analytics tracking, and a 2026 dedicated SeatMaster app.</p>
+        <p>
+          Plans include: Section assignments, analytics tracking, and a 2026 dedicated SeatMaster app
+          with staff login control.
+        </p>
         <p class="note">Early Development</p>
       </div>
-
     </div>
+
+    <!-- Button + container for older posts (JS will fill this) -->
+    <div style="margin-top: 24px;">
+      <button id="show-older-blogs" class="btn secondary load-more-btn">
+        Show Previous Blog Posts
+      </button>
+    </div>
+
+    <div id="older-blogs" class="showcase-grid" style="margin-top: 18px;"></div>
   </section>
+
 </main>
 
 <footer class="footer small-legal">
-  SeatMaster © 2025 · Tristan Patron · 
-  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+  SeatMaster © 2025 · Tristan Patron ·
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
+    CC BY-NC-ND 4.0
+  </a>
 </footer>
 
 <script src="script.js"></script>
